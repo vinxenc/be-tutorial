@@ -22,15 +22,15 @@ curl -X POST http://localhost:3000/api/users \
 ### Running Unitest
 `Running Test`
 ```bash
-./run_test.sh
+./run-tests.sh
 ```
 
 `Running Test with Coverage`  
 ```bash
-./run_test.sh -c
+./run-tests.sh -c
 ```
 
 `Running Test with Coverage and export to HTML`
 ```bash
-./run_test.sh -h
+./run-tests.sh -h
 ```
