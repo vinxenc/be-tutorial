@@ -17,3 +17,20 @@ A simple CRUD API for user management built with Go Fiber.
 curl -X POST http://localhost:3000/api/users \
   -H "Content-Type: application/json" \
   -d '{"id": 1, "name": "John Doe", "email": "john@example.com", "age": 30}'
+```
+
+### Running Unitest
+`Running Test`
+```bash
+./run-tests.sh
+```
+
+`Running Test with Coverage`  
+```bash
+./run-tests.sh -c
+```
+
+`Running Test with Coverage and export to HTML`
+```bash
+./run-tests.sh -h
+```
